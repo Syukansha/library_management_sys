@@ -19,16 +19,12 @@ function AppBar() {
               <Nav.Link href="#link">Student</Nav.Link>
               <Nav.Link href="#link">Librarian</Nav.Link>
               
-              <NavDropdown title="Book" id="basic-nav-dropdown">
-                <NavDropdown.Item href="#action/3.1">Insert </NavDropdown.Item>
+              <NavDropdown title="Books" id="basic-nav-dropdown">
+                <NavDropdown.Item href="#action/3.1"><Link to="/books" id='link'>Loan Books</Link> </NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.2">
-                  Another action
+                <Link to="/return-books" id='link'>Return Books</Link> 
                 </NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-                <NavDropdown.Divider />
-                <NavDropdown.Item href="#action/3.4">
-                  Separated link
-                </NavDropdown.Item>
+               
               </NavDropdown>
             </Nav>
           </Navbar.Collapse>

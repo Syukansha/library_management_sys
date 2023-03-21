@@ -32,6 +32,16 @@ code {
   
 }
 
+#return{
+  background-color: #2f4f4f;
+  color: white;
+  margin-top: 5%;
+  border-radius: 10px;
+  height: 90%;
+  padding: 20px;
+  width: 50%;
+}
+
 #navi{
   background-color: #2f4f4f;
 }
